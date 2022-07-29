@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+  </style>
+</head>
+
+<body id="menu" class="toolbar">
+  <div class="nombrelogo">TUBOTUB</div>
+  <header>
+          <!--Menu de navegacion entre paginas-->
+          <nav>
+            <a [routerLink]="['/']">Inicio</a>
+            &nbsp;
+            <!--separar los links con espacio-->
+            <a [routerLink]="['/login']">Login</a>
+            &nbsp;
+            <a [routerLink]="['/usuario-principal']">Usuario</a>
+            &nbsp;
+            <a [routerLink]="['/contactos']">Contactos</a>
+            &nbsp;
+            <a [routerLink]="['/objetivo']">Objetivos</a>
+          </nav>
+
+  </header>
+
+</body>
+
+</html>

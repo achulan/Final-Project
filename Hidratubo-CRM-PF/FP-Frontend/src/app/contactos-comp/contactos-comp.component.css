@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    border: 1px solid #000;
+    border-spacing: 0;
+ }
+
+ th, td {
+    width: 25%;
+    vertical-align: top;
+ }
+
+ th{
+    border: 1px solid #000;
+ }
+
+ .odd th, .odd td {
+    background: #eee;
+ }

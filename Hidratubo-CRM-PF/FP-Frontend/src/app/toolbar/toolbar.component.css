@@ -1,0 +1,31 @@
+* {
+  width: 100%;
+  background-color: black;
+  border: black auto solid;
+}
+
+.nombrelogo {
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+/* hacemos que cambie el color de la letra al pasar el mouse */
+a:hover {
+  color: #ffc107;
+}

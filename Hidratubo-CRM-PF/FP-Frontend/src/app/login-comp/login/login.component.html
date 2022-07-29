@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+  </style>
+</head>
+
+<body>
+  <div id="logo-compañia">
+    <h1>TUBOTUB</h1>
+  </div>
+
+  <div id="login">
+    <div class="form-login">
+      <br>
+      <h2>Accede a tu Usuario</h2>
+      <br>
+      <form action="login.php" method="post">
+        <div class="texto-dif">
+          <p>Usuario</p>
+          <p><input type="text" placeholder="email" name="username"></p>
+          <p>Contraseña</p>
+          <p><input type="password" placeholder="*****" name="password"></p>
+          <label class="checkbox">
+            <span class="pull-right">
+              <a data-toggle="modal" href="login.html#myModal"> Contacto con administración</a>
+            </span>
+          </label>
+          <a [routerLink]="['/']">
+          <p><input type="submit" value="Entrar" class="boton"></p>
+          </a>
+          <br>
+        </div>
+      </form>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>

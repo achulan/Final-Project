@@ -1,0 +1,64 @@
+html {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  display: block;
+  box-sizing: margin-box;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/8414059/pexels-photo-8414059.jpeg?auto=compress&cs=tinysrgb&w=300");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+#logo-compañia {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  font-size: 50px;
+  color: #fff;
+}
+
+#login {
+  font-family: 'Merriweather', serif;
+  color: rgb(29, 28, 28);
+}
+
+.form-login {
+  position: relative;
+  top: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.texto-dif {
+  display: block;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 2px;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.boton {
+  padding: 7px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
